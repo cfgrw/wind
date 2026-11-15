@@ -79,7 +79,7 @@ moka = { version = "0.12", features = ["future"] }
 # Server-only live-connection registry (per-user limits + active kick); enabled
 # by the `server` feature.
 dashmap = { version = "6", optional = true }
-arc-swap = "1.9.1"
+arc-swap = "1.9.5"
 serde = { version = "1", features = ["derive"] }
 enum_dispatch = "0.3"
 secrecy = "0.10"

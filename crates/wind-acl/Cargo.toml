@@ -15,8 +15,8 @@ wind-rule = { path = "../wind-rule" }
 wind-geodata = { path = "../wind-geodata" }
 
 # Rule parsing / matching
-pest = "2.8"
-pest_derive = "2.8"
+pest = "2.9"
+pest_derive = "2.9"
 ipnet = { version = "2", features = ["serde"] }
 ip_network = "0.4"
 
@@ -31,6 +31,6 @@ async-trait = "0.1"
 
 [dev-dependencies]
 tokio = { version = "1", features = ["macros", "rt"] }
-toml = "1.0"
+toml = "1.2"
 geosite-rs = "0.1.6"
 tempfile = "3"

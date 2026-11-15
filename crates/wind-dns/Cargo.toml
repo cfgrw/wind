@@ -24,4 +24,4 @@ eyre = "0.6"
 humantime-serde = "1"
 
 [dev-dependencies]
-toml = "1.0"
+toml = "1.2"

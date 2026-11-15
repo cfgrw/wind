@@ -39,7 +39,7 @@ fast-socks5 = "1.0"
 eyre = "0.6"
 async-trait = "0.1"
 tracing = { version = "0.1", default-features = false, features = ["attributes"] }
-criterion = { version = "5.0.2", package = "codspeed-criterion-compat" }
+criterion = { version = "6.0.0", package = "codspeed-criterion-compat" }
 
 [dev-dependencies]
 tokio = { version = "1", default-features = false, features = ["macros", "rt-multi-thread", "io-util", "net", "time"] }
